@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:62.5%;
+}
+
+.tweetHeader {
+    font-size: 1.5em;
+    color: #666666; 
+    margin-bottom: 10px;
+}
+
+div.tweet {
+    border-top: 1px dashed #CCC;
+    padding: 10px 5px;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
+
+div.friend {
+    border-top: 1px solid #DDD;
+}
+
+div.row1 {
+    background-color: #EFEFEF;
+}
+
+div.row2 {
+    background-color: #FFF;
+}
+
+div.tweet a {
+    color: #0097C0; 
+    text-decoration: underline;
+}
+
+div.tweet a:hover {
+    text-decoration: none;
+}
+
+div.tweet div.avatar {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+}
+
+div.tweet div.origination {
+    color: #999999;
+    font-size: .9em;
+    margin-left: 60px;
+}
+
+div.tweet div.origination a {
+    color: #999999;
+}
+
+div.tweet div.text {
+    margin-left: 60px;
+}
+
+div.tweet div.text a.username {
+    font-weight: bold;
+}
+
+div.tweet div.text span.name {
+    font-weight: bold;
+}
+
+a.twitterButton {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #CCC;
+    background-image: url(../images/more.gif);
+    background-repeat: repeat-x;
+    border-color: #DDDDDDD #AAAAAA #AAAAAA #DDDDDD;
+    font-weight: bold;
+    color: #999;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #CC0000;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;    
+}
+
+a.twitterButton:hover {
+    background-position:left -78px;
+    border:1px solid #BBBBBB;
+    text-decoration:none;
+}
