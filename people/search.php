@@ -4,7 +4,7 @@ $searchcriteria = $_REQUEST["criteria"];
 $searchagain = $_REQUEST["return"];
 
 //Test the database connection 
-$db = mysql_pconnect("localhost", "directory", "e843d5946");
+$db = mysql_pconnect("localhost", "root", "root");
 
 //POST AN ERROR MESSAGE IF A CONNECTION TO THE DATABASE CANNOT BE MADE
 if (!$db)

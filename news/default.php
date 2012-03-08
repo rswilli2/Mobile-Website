@@ -79,7 +79,7 @@ else $newstype = "Headlines";
 
 <? 
 // OPEN THE CONNECTION TO THE MYSQL DATABASE`
-$link = mysql_connect('localhost:3305', 'enews', '3h32w');
+$link = mysql_connect('localhost:3305', 'root', 'root');
 
 // RETURN ERROR MESSAGE IF THE CONNECTION TO THE MYSQL DATABASE CANNOT BE OPENED
 if (!$link)
